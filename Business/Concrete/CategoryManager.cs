@@ -23,10 +23,10 @@ namespace Business.Concrete
             _categoryDAL = categoryDAL;
         }
 
-        public async Task<IResult> AddCategoryByLanguageAsync(CategoryAddDTO categoryAddDTO, IFormFile formFile, string webRootPath)
+        public async Task<IResult> AddCategoryByLanguageAsync(CategoryAddDTO categoryAddDTO, string webRootPath)
         {
 
-            var result = await _categoryDAL.AddCategory(categoryAddDTO, formFile, webRootPath);
+            var result = await _categoryDAL.AddCategory(categoryAddDTO, webRootPath);
             if (result)
             {
                 return new SuccessResult("Category created successfully");

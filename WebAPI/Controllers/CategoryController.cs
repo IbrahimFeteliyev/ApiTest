@@ -20,9 +20,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("CreateCategory")]
-        public async Task<IActionResult> CreateCategory(IFormFile Photo, CategoryAddDTO category)
+        public async Task<IActionResult> CreateCategory(CategoryAddDTO categoryAddDTO)
         {
-            var result = await _categoryService.AddCategoryByLanguageAsync(category, Photo, _env.WebRootPath);
+            var result = await _categoryService.AddCategoryByLanguageAsync(categoryAddDTO, _env.WebRootPath);
             if (result.Success)
             {
                 return Ok(result);
@@ -51,21 +51,21 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPost("uploadimage")]
-        public async Task<IActionResult> UploadImageAsync(IFormFile Image)
-        {
-            var filePath = Path.Combine(_env.WebRootPath, "uploads").ToLower();
-            if (!Directory.Exists(filePath))
-            {
-                Directory.CreateDirectory(filePath);
-            }
-            string path = "/uploads/" + Guid.NewGuid() + Image.FileName;
-            using (var fileStream = new FileStream(_env.WebRootPath + path, FileMode.Create))
-            {
-                await Image.CopyToAsync(fileStream);
-            }
-            return Ok(new { status = 200, message = path });
-        }
+        //[HttpPost("uploadimage")]
+        //public async Task<IActionResult> UploadImageAsync(IFormFile Image)
+        //{
+        //    var filePath = Path.Combine(_env.WebRootPath, "uploads").ToLower();
+        //    if (!Directory.Exists(filePath))
+        //    {
+        //        Directory.CreateDirectory(filePath);
+        //    }
+        //    string path = "/uploads/" + Guid.NewGuid() + Image.FileName;
+        //    using (var fileStream = new FileStream(_env.WebRootPath + path, FileMode.Create))
+        //    {
+        //        await Image.CopyToAsync(fileStream);
+        //    }
+        //    return Ok(new { status = 200, message = path });
+        //}
 
 
         //[HttpPost("uploadimages")]

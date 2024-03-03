@@ -24,14 +24,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Photo",
+        "Name": "PhotoUrl",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       },
       {
-        "Name": "category",
-        "Type": "Entities.DTOs.CategoryDTOs.CategoryAddDTO",
-        "IsRequired": true
+        "Name": "CategoryName",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "LangCode",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -53,22 +58,6 @@
         "Name": "categoryEditDTO",
         "Type": "Entities.DTOs.CategoryDTOs.CategoryAdminDetailDTO",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.CategoryController",
-    "Method": "UploadImageAsync",
-    "RelativePath": "api/Category/uploadimage",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Image",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

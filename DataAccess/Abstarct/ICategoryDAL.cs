@@ -13,7 +13,7 @@ namespace DataAccess.Abstarct
 {
     public interface ICategoryDAL : IEntityRepository<Category>
     {
-        Task<bool> AddCategory(CategoryAddDTO categoryAddDTO, IFormFile formFile, string webRootPath);
+        Task<bool> AddCategory(CategoryAddDTO categoryAddDTO, string webRootPath);
         Task<bool> UpdateCategory(CategoryAdminDetailDTO categoryEditDTO, IFormFile formFile, string webRootPath);
         List<CategoryAdminListDTO> GetAllCategoriesAdminList(string langCode);
         CategoryAdminDetailDTO GetCategoryByIdAdmin(int id);

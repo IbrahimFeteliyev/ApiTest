@@ -11,14 +11,14 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EFCategoryDAL : EfEntityRepositoryBase<Category, AppDbContext>, ICategoryDAL
     {
-        public async Task<bool> AddCategory(CategoryAddDTO categoryAddDTO, IFormFile formFile, string webRootPath)
+        public async Task<bool> AddCategory(CategoryAddDTO categoryAddDTO, string webRootPath)
         {
             try
             {
                 using var context = new AppDbContext();
                 Category category = new()
                 {
-                    PhotoUrl = await formFile.SaveFileAsync(webRootPath),
+                    PhotoUrl = await categoryAddDTO.PhotoUrl.SaveFileAsync(webRootPath),
                     IsFeatured = false  
                 };
 
