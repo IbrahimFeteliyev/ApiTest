@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\CodingProjects\\C#\\API\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|c:\\codingprojects\\c#\\api\\webapi\\dataaccess\\concrete\\entityframework\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\dtos\\hospitalbranchdtos\\hospitalbranchadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\hospitalbranchdtos\\hospitalbranchadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|c:\\codingprojects\\c#\\api\\webapi\\dataaccess\\concrete\\entityframework\\efhospitalbranchdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efhospitalbranchdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|c:\\codingprojects\\c#\\api\\webapi\\dataaccess\\concrete\\entityframework\\efcategorylanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcategorylanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\hospitalbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\hospitalbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\hospitalbranchphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\hospitalbranchphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\hospitalbranchfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\hospitalbranchfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\hospitalbranchlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\hospitalbranchlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\hospitalbranchfeaturelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\hospitalbranchfeaturelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\hospitalbranchlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\hospitalbranchlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|c:\\codingprojects\\c#\\api\\webapi\\entities\\concrete\\hospitalbranchphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5F0409-D76F-4BFE-955F-C6BE50C1C3DD}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\hospitalbranchphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|c:\\codingprojects\\c#\\api\\webapi\\dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456E1CAE-D4BB-4BCB-88C4-3ACC3EE4AB00}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +46,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
-              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\AppDbContext.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswC0AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "EFHospitalBranchDAL.cs",
+              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\EFHospitalBranchDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFHospitalBranchDAL.cs",
+              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\EFHospitalBranchDAL.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFHospitalBranchDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:53:52.19Z",
+              "WhenOpened": "2024-03-04T12:06:54.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HospitalBranchFeature.cs",
+              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchFeature.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranchFeature.cs",
+              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchFeature.cs",
+              "RelativeToolTip": "Entities\\Concrete\\HospitalBranchFeature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T12:04:41.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HospitalBranchLanguage.cs",
+              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchLanguage.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranchLanguage.cs",
+              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchLanguage.cs",
+              "RelativeToolTip": "Entities\\Concrete\\HospitalBranchLanguage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T12:58:52.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EFCategoryLanguage.cs",
+              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\EFCategoryLanguage.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFCategoryLanguage.cs",
+              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\EFCategoryLanguage.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFCategoryLanguage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T12:06:53.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HospitalBranch.cs",
+              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranch.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranch.cs",
+              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranch.cs",
+              "RelativeToolTip": "Entities\\Concrete\\HospitalBranch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T12:06:35.554Z",
               "EditorCaption": ""
             },
             {
@@ -61,74 +121,48 @@
               "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranchFeatureLanguage.cs",
               "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchFeatureLanguage.cs",
               "RelativeToolTip": "Entities\\Concrete\\HospitalBranchFeatureLanguage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:45:26.28Z",
+              "WhenOpened": "2024-03-04T12:04:42.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HospitalBranchFeature.cs",
-              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchFeature.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranchFeature.cs",
-              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchFeature.cs",
-              "RelativeToolTip": "Entities\\Concrete\\HospitalBranchFeature.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAxAAAA",
+              "DocumentIndex": 8,
+              "Title": "EFCategoryDAL.cs",
+              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EFCategoryDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:36:56.231Z",
+              "WhenOpened": "2024-03-04T12:06:55.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "About.cs",
-              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\About.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\About.cs",
-              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\About.cs",
-              "RelativeToolTip": "Entities\\Concrete\\About.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "HospitalBranchAddDTO.cs",
+              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\DTOs\\HospitalBranchDTOs\\HospitalBranchAddDTO.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\HospitalBranchDTOs\\HospitalBranchAddDTO.cs",
+              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\DTOs\\HospitalBranchDTOs\\HospitalBranchAddDTO.cs",
+              "RelativeToolTip": "Entities\\DTOs\\HospitalBranchDTOs\\HospitalBranchAddDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:33:27.701Z",
+              "WhenOpened": "2024-03-04T12:04:29.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HospitalBranchLanguage.cs",
-              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchLanguage.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranchLanguage.cs",
-              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchLanguage.cs",
-              "RelativeToolTip": "Entities\\Concrete\\HospitalBranchLanguage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:22:20.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "HospitalBranchPhoto.cs",
               "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchPhoto.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranchPhoto.cs",
               "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranchPhoto.cs",
               "RelativeToolTip": "Entities\\Concrete\\HospitalBranchPhoto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:18:55.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HospitalBranch.cs",
-              "DocumentMoniker": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranch.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\HospitalBranch.cs",
-              "ToolTip": "C:\\CodingProjects\\C#\\API\\WebAPI\\Entities\\Concrete\\HospitalBranch.cs",
-              "RelativeToolTip": "Entities\\Concrete\\HospitalBranch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T14:13:20.942Z",
+              "WhenOpened": "2024-03-04T12:58:54.045Z",
               "EditorCaption": ""
             }
           ]

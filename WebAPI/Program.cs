@@ -73,6 +73,10 @@ builder.Services.AddScoped<IShortInfoService, ShortInfoManager>();
 builder.Services.AddScoped<IAboutDAL, EFAboutDAL>();
 builder.Services.AddScoped<IAboutService, AboutManager>();
 
+
+builder.Services.AddScoped<IHospitalBranchDAL, EFHospitalBranchDAL>();
+builder.Services.AddScoped<IHospitalBranchService, HospitalBranchManager>();
+
 builder.Services.AddScoped<HasingHandler>();
 //builder.Services.AddScoped<TokenGenerator>();
 builder.Services.AddScoped<JWTConfig>();

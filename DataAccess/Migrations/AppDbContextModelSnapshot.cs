@@ -182,6 +182,149 @@ namespace DataAccess.Migrations
                     b.ToTable("Doctors");
                 });
 
+            modelBuilder.Entity("Entities.Concrete.HospitalBranch", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CoverPhoto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("HospitalBranchs");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchFeature", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Count")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("HospitalBranchId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PhotoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HospitalBranchId");
+
+                    b.ToTable("HospitalBranchFeatures");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchFeatureLanguage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("HospitalBranchFeatureId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LangCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HospitalBranchFeatureId");
+
+                    b.ToTable("HospitalBranchFeatureLanguages");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchLanguage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BranchName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("HospitalBranchId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("HospitalName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LangCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HospitalBranchId");
+
+                    b.ToTable("HospitalBranchLanguages");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchPhoto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("HospitalBranchId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PhotoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HospitalBranchId");
+
+                    b.ToTable("HospitalBranchPhotos");
+                });
+
             modelBuilder.Entity("Entities.Concrete.ShortInfo", b =>
                 {
                     b.Property<int>("Id")
@@ -351,6 +494,50 @@ namespace DataAccess.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchFeature", b =>
+                {
+                    b.HasOne("Entities.Concrete.HospitalBranch", "HospitalBranch")
+                        .WithMany("HospitalBranchFeatures")
+                        .HasForeignKey("HospitalBranchId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HospitalBranch");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchFeatureLanguage", b =>
+                {
+                    b.HasOne("Entities.Concrete.HospitalBranchFeature", "HospitalBranchFeature")
+                        .WithMany("HospitalBranchFeatureLanguages")
+                        .HasForeignKey("HospitalBranchFeatureId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HospitalBranchFeature");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchLanguage", b =>
+                {
+                    b.HasOne("Entities.Concrete.HospitalBranch", "HospitalBranch")
+                        .WithMany("HospitalBranchLanguages")
+                        .HasForeignKey("HospitalBranchId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HospitalBranch");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchPhoto", b =>
+                {
+                    b.HasOne("Entities.Concrete.HospitalBranch", "HospitalBranch")
+                        .WithMany("HospitalBranchPhotos")
+                        .HasForeignKey("HospitalBranchId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HospitalBranch");
+                });
+
             modelBuilder.Entity("Entities.Concrete.ShortInfoLanguage", b =>
                 {
                     b.HasOne("Entities.Concrete.ShortInfo", "ShortInfo")
@@ -388,6 +575,20 @@ namespace DataAccess.Migrations
                     b.Navigation("Appointments");
 
                     b.Navigation("WorkSchedules");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranch", b =>
+                {
+                    b.Navigation("HospitalBranchFeatures");
+
+                    b.Navigation("HospitalBranchLanguages");
+
+                    b.Navigation("HospitalBranchPhotos");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.HospitalBranchFeature", b =>
+                {
+                    b.Navigation("HospitalBranchFeatureLanguages");
                 });
 
             modelBuilder.Entity("Entities.Concrete.ShortInfo", b =>
